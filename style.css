@@ -126,7 +126,7 @@ transition:all 100ms ease;
 ================================================== */
 
 /* Default / Desktop / Firefox */
-audio { margin:0 auto; width:400px; }
+audio { margin:0 auto; width:90% }
 #mainwrap { /* add box-shadow or other styles here */ }
 #audiowrap { background-color:#231F20; margin:0 auto; }
 #plwrap { margin:0 auto; }
@@ -148,7 +148,7 @@ a[id^="btn"]:hover,a[id^="btn"]:active { background-color:#262223; }
 a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
 
 /* IE 9 */
-html[data-useragent*="MSIE 9.0"] audio { outline:none; width:400px; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 9.0"] audio { outline:none; width:90%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] #audiowrap { background-color:#000; }
 html[data-useragent*="MSIE 9.0"] #tracks { min-height:57px; top:5px; }
 html[data-useragent*="MSIE 9.0"] a[id^="btn"] { background-color:#000; }
@@ -159,7 +159,7 @@ html[data-useragent*="MSIE 9.0"] .plSel,
 html[data-useragent*="MSIE 9.0"] .plSel:hover { background-color:#080808!important; }
 
 /* IE 10 */
-html[data-useragent*="MSIE 10.0"] audio {  width:400px; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 10.0"] audio {  width:90%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 10.0"] #audiowrap { background-color:#000; }
 html[data-useragent*="MSIE 10.0"] #tracks { min-height:60px; top:8px; }
 html[data-useragent*="MSIE 10.0"] a[id^="btn"] { background-color:#000; }
@@ -170,7 +170,7 @@ html[data-useragent*="MSIE 10.0"] .plSel,
 html[data-useragent*="MSIE 10.0"] .plSel:hover { background-color:#080808!important; }
 
 /* IE 11 */
-html[data-useragent*="rv:11.0"] audio { width:400px; margin:0 auto; display:block;}
+html[data-useragent*="rv:11.0"] audio { width:90%; margin:0 auto; display:block;}
 html[data-useragent*="rv:11.0"] #audiowrap { background-color:#000; }
 html[data-useragent*="rv:11.0"] #tracks { min-height:60px; top:8px; }
 html[data-useragent*="rv:11.0"] a[id^="btn"] { background-color:#000; }
@@ -193,7 +193,7 @@ html[data-useragent*="Apple"] .plSel:hover { background-color:#080808!important;
 
 /* IOS 7 */
 html[data-useragent*="OS 7"] body { color:#373837; }
-html[data-useragent*="OS 7"] audio { width:400px; margin:0 auto; display:block;}
+html[data-useragent*="OS 7"] audio { width:90%; margin:0 auto; display:block;}
 html[data-useragent*="OS 7"] #audiowrap { background-color:#e6e6e6; }
 html[data-useragent*="OS 7"] #tracks { min-height:75px; top:23px; }
 html[data-useragent*="OS 7"] a[id^="btn"] { background-color:#e6e6e6; color:#373837; }
@@ -204,7 +204,7 @@ html[data-useragent*="OS 7"] .plSel,
 html[data-useragent*="OS 7"] .plSel:hover { background-color:#eee!important; }
 
 /* Chrome */
-html[data-useragent*="Chrome"] audio { width:400px; margin:0 auto; display:block;}
+html[data-useragent*="Chrome"] audio { width:90%; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"] #tracks { min-height:64px; top:12px; }
 html[data-useragent*="Chrome"] #audiowrap { background-color:#131313; }
 html[data-useragent*="Chrome"] a[id^="btn"] { background-color:#131313; }
@@ -223,7 +223,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio {width:400px; ma
 
 /* Tablet Portrait */
 @media only screen and (min-width: 420px) and (max-width: 420px) {
-audio { width:400px; margin:0 auto; display:block;}
+audio { width:90%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] audio { width:420px; }
 html[data-useragent*="MSIE 10.0"] audio { width:240px; }
 html[data-useragent*="rv:11.0"] audio { width:420px; }
@@ -234,7 +234,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:5p
 
 /* Mobile Landscape */
 @media only screen and (min-width: 420px) and (max-width: 420px) {
-audio { width:400px; margin:0 auto; display:block;}
+audio { width:90%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] audio { width:400px; }
 html[data-useragent*="MSIE 10.0"] audio { width:407px; }
 html[data-useragent*="rv:11.0"] audio { width:415px; }
@@ -246,7 +246,7 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:5px
 
 /* Mobile Portrait */
 @media only screen and (max-width: 420px) {
-audio { width:400px; margin:0 auto; display:block;}
+audio { width:90%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] audio { width:280px; }
 html[data-useragent*="MSIE 10.0"] audio { width:287px; }
 html[data-useragent*="rv:11.0"] audio { width:295px; }
