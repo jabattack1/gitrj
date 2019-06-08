@@ -19,7 +19,7 @@
 /* Tablet (Portrait)
 ================================================== */
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 420px) and (max-width: 420px) {
 .container { width:420px;}
 }
 
@@ -27,7 +27,7 @@
 /* Mobile (Portrait)
 ================================================== */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 420px) {
 .container { width:420px; }
 }
 
@@ -35,7 +35,7 @@
 /* Mobile (Landscape)
 ================================================== */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 420px) and (max-width: 420px) {
 .container { width:420px; }
 }
 
@@ -215,7 +215,7 @@ html[data-useragent*="Chrome"] .plSel,
 html[data-useragent*="Chrome"] .plSel:hover { background-color:#161616!important; }
 
 /* Chrome / Android / Tablet */
-html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:5px; width:420px; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] audio {width:420px; }
 
 
 /* Audio Player Media Queries
@@ -223,7 +223,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:5p
 
 /* Tablet Portrait */
 @media only screen and (min-width: 420px) and (max-width: 420px) {
-audio { width:526px; }
+audio { width:420px; }
 html[data-useragent*="MSIE 9.0"] audio { width:420px; }
 html[data-useragent*="MSIE 10.0"] audio { width:240px; }
 html[data-useragent*="rv:11.0"] audio { width:420px; }
