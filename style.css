@@ -5,7 +5,7 @@
 	display:block;
 	margin:0 auto;
 	width:420px;
-	height:320px;
+	height:420px;
 }
 
 
@@ -54,12 +54,12 @@ vertical-align:baseline;
 
 body { 
 	line-height:1; 
-	background: url('https://i.imgur.com/GB2WdTY.jpg'); 
-  -webkit-background-size: repeat;
-  -moz-background-size: repeat;
-  -o-background-size: repeat;
-  background-size: repeat;
-  background-size: 300px 300px; 
+	background: url('https://i.imgur.com/75MkhvO.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100% 100%; 
 }
 
 ul { list-style:none; }
@@ -126,7 +126,7 @@ transition:all 100ms ease;
 ================================================== */
 
 /* Default / Desktop / Firefox */
-audio { margin:0 auto; width:420px; }
+audio { margin:0 auto; width:400px; }
 #mainwrap { /* add box-shadow or other styles here */ }
 #audiowrap { background-color:#231F20; margin:0 auto; }
 #plwrap { margin:0 auto; }
@@ -148,7 +148,7 @@ a[id^="btn"]:hover,a[id^="btn"]:active { background-color:#262223; }
 a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
 
 /* IE 9 */
-html[data-useragent*="MSIE 9.0"] audio { outline:none; width:420px; }
+html[data-useragent*="MSIE 9.0"] audio { outline:none; width:400px; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] #audiowrap { background-color:#000; }
 html[data-useragent*="MSIE 9.0"] #tracks { min-height:57px; top:5px; }
 html[data-useragent*="MSIE 9.0"] a[id^="btn"] { background-color:#000; }
@@ -159,7 +159,7 @@ html[data-useragent*="MSIE 9.0"] .plSel,
 html[data-useragent*="MSIE 9.0"] .plSel:hover { background-color:#080808!important; }
 
 /* IE 10 */
-html[data-useragent*="MSIE 10.0"] audio {  width:420px; }
+html[data-useragent*="MSIE 10.0"] audio {  width:400px; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 10.0"] #audiowrap { background-color:#000; }
 html[data-useragent*="MSIE 10.0"] #tracks { min-height:60px; top:8px; }
 html[data-useragent*="MSIE 10.0"] a[id^="btn"] { background-color:#000; }
@@ -170,7 +170,7 @@ html[data-useragent*="MSIE 10.0"] .plSel,
 html[data-useragent*="MSIE 10.0"] .plSel:hover { background-color:#080808!important; }
 
 /* IE 11 */
-html[data-useragent*="rv:11.0"] audio { width:420px; }
+html[data-useragent*="rv:11.0"] audio { width:400px; margin:0 auto; display:block;}
 html[data-useragent*="rv:11.0"] #audiowrap { background-color:#000; }
 html[data-useragent*="rv:11.0"] #tracks { min-height:60px; top:8px; }
 html[data-useragent*="rv:11.0"] a[id^="btn"] { background-color:#000; }
@@ -181,7 +181,7 @@ html[data-useragent*="rv:11.0"] .plSel,
 html[data-useragent*="rv:11.0"] .plSel:hover { background-color:#080808!important; }
 
 /* All Apple Products */
-html[data-useragent*="Apple"] audio { margin:0; width:100%; }
+/*html[data-useragent*="Apple"] audio { margin:0; width:100%; }
 html[data-useragent*="Apple"] #audiowrap { background-color:#000; }
 html[data-useragent*="Apple"] #tracks { min-height:64px; top:12px; }
 html[data-useragent*="Apple"] a[id^="btn"] { background-color:#000; }
@@ -189,11 +189,11 @@ html[data-useragent*="Apple"] a[id^="btn"]:hover { background-color:#080808; }
 html[data-useragent*="Apple"] #plList li { background-color:#000; }
 html[data-useragent*="Apple"] #plList li:hover { background-color:#080808; }
 html[data-useragent*="Apple"] .plSel,
-html[data-useragent*="Apple"] .plSel:hover { background-color:#080808!important; }
+html[data-useragent*="Apple"] .plSel:hover { background-color:#080808!important; }*/
 
 /* IOS 7 */
 html[data-useragent*="OS 7"] body { color:#373837; }
-html[data-useragent*="OS 7"] audio { margin-left:3px; width:420px; }
+html[data-useragent*="OS 7"] audio { width:400px; margin:0 auto; display:block;}
 html[data-useragent*="OS 7"] #audiowrap { background-color:#e6e6e6; }
 html[data-useragent*="OS 7"] #tracks { min-height:75px; top:23px; }
 html[data-useragent*="OS 7"] a[id^="btn"] { background-color:#e6e6e6; color:#373837; }
@@ -204,7 +204,7 @@ html[data-useragent*="OS 7"] .plSel,
 html[data-useragent*="OS 7"] .plSel:hover { background-color:#eee!important; }
 
 /* Chrome */
-html[data-useragent*="Chrome"] audio { width:420px; }
+html[data-useragent*="Chrome"] audio { width:400px; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"] #tracks { min-height:64px; top:12px; }
 html[data-useragent*="Chrome"] #audiowrap { background-color:#131313; }
 html[data-useragent*="Chrome"] a[id^="btn"] { background-color:#131313; }
@@ -215,7 +215,7 @@ html[data-useragent*="Chrome"] .plSel,
 html[data-useragent*="Chrome"] .plSel:hover { background-color:#161616!important; }
 
 /* Chrome / Android / Tablet */
-html[data-useragent*="Chrome"][data-useragent*="Android"] audio {width:420px; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] audio {width:400px; margin:0 auto; display:block;}
 
 
 /* Audio Player Media Queries
@@ -223,7 +223,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio {width:420px; }
 
 /* Tablet Portrait */
 @media only screen and (min-width: 420px) and (max-width: 420px) {
-audio { width:420px; }
+audio { width:400px; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] audio { width:420px; }
 html[data-useragent*="MSIE 10.0"] audio { width:240px; }
 html[data-useragent*="rv:11.0"] audio { width:420px; }
@@ -234,7 +234,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:5p
 
 /* Mobile Landscape */
 @media only screen and (min-width: 420px) and (max-width: 420px) {
-audio { width:390px; }
+audio { width:400px; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] audio { width:400px; }
 html[data-useragent*="MSIE 10.0"] audio { width:407px; }
 html[data-useragent*="rv:11.0"] audio { width:415px; }
@@ -246,7 +246,7 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:5px
 
 /* Mobile Portrait */
 @media only screen and (max-width: 420px) {
-audio { width:270px; }
+audio { width:400px; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] audio { width:280px; }
 html[data-useragent*="MSIE 10.0"] audio { width:287px; }
 html[data-useragent*="rv:11.0"] audio { width:295px; }
