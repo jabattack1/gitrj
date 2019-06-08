@@ -229,7 +229,7 @@ html[data-useragent*="MSIE 10.0"] audio { width:100%; margin:0 auto; display:blo
 html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="OS 7"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"] audio { width:100%; margin:0 auto; display:block;}
-html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:5px; width:100%; }
+html[data-useragent*="Chrome"][data-useragent*="Android"] audio { width:100%; }
 }
 
 /* Mobile Landscape */
@@ -240,7 +240,7 @@ html[data-useragent*="MSIE 10.0"] audio { width:100%; margin:0 auto; display:blo
 html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="OS 7"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"] audio { width:100%; margin:0 auto; display:block;}
-html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:5px; width:100%; }
+html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { width:100%; }
 #npTitle { margin:0 auto; padding:12px; text-align:center; width:100%;}
 }
 
@@ -252,7 +252,7 @@ html[data-useragent*="MSIE 10.0"] audio { width:100%; margin:0 auto; display:blo
 html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="OS 7"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"] audio { width:100%; margin:0 auto; display:block;}
-html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:5px; width:100%; }
+html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { width:100%; }
 #npTitle { margin:0 auto; padding:12px; text-align:center; width:100%;}
 
 
