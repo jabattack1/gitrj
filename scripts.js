@@ -20,7 +20,7 @@ jQuery(function ($) {
         extension = '',
         tracks = [{
             "track": 1,
-            "name": "I Don't Want To Go And See The Sun",
+            "name": "I DON'T WANT TO GO AND SEE THE SUN",
             "length": "02:46",
             "file": "sun"
         }, {
