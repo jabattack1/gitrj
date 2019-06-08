@@ -241,7 +241,7 @@ html[data-useragent*="rv:11.0"] audio { width:415px; }
 html[data-useragent*="OS 7"] audio { width:410px; }
 html[data-useragent*="Chrome"] audio { width:407px; }
 html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:5px; width:403px; }
-#npTitle { width:245px; }
+#npTitle { margin:0 auto; padding:12px; text-align:center; width:100%;}
 }
 
 /* Mobile Portrait */
@@ -253,7 +253,7 @@ html[data-useragent*="rv:11.0"] audio { width:295px; }
 html[data-useragent*="OS 7"] audio { width:290px; }
 html[data-useragent*="Chrome"] audio { width:287px; }
 html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:5px; width:283px; }
-#npTitle { width:167px; }
+#npTitle { margin:0 auto; padding:12px; text-align:center; width:100%;}
 
 
 
