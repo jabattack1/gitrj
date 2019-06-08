@@ -132,7 +132,7 @@ audio { margin:0 auto; width:400px; }
 #plwrap { margin:0 auto; }
 #tracks { min-height:65px; position:relative; text-align:center; text-decoration:none; top:13px; }
 #nowPlay { display:inline; margin:0 auto; width:100%; }
-#npTitle { margin:0 auto; padding:12px; text-align:center; }
+#npTitle { margin:0 auto; padding:12px; text-align:center; width:100%;}
 #npAction { padding:21px; position:absolute; }
 #plList { margin:0; }
 #plList li { background-color:#231F20; cursor:pointer; margin:0; padding:21px 0; }
