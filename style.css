@@ -118,15 +118,15 @@ transition:all 100ms ease;
 }
 
 /* Highlight Styles */
-::selection { background-color:#262223; color:#444; }
-::-moz-selection { background-color:#262223; color:#444; }
+::selection { background-color:black; color:#444; }
+::-moz-selection { background-color:black; color:#444; }
 
 
 /* Audio Player Styles
 ================================================== */
 
 /* Default / Desktop / Firefox */
-audio { margin:0 auto; width:90% }
+audio { margin:0 auto; width:90%; display:block; }
 #mainwrap { /* add box-shadow or other styles here */ }
 #audiowrap { width:100%; background-color:black; margin:0 auto; }
 #plwrap { margin:0 auto; }
@@ -135,84 +135,84 @@ audio { margin:0 auto; width:90% }
 #npTitle { margin:0 auto; padding:12px; text-align:center; width:100%;}
 #npAction { padding:21px; position:absolute; }
 #plList { margin:0; }
-#plList li { background-color:#231F20; cursor:pointer; margin:0; padding:21px 0; }
-#plList li:hover { background-color:#262223; }
+#plList li { background-color:black; cursor:pointer; margin:0; padding:21px 0; }
+#plList li:hover { background-color:black; }
 .plItem { position:relative; }
 .plTitle { left:50px; overflow:hidden; position:absolute; right:65px; text-overflow:ellipsis; top:0; white-space:nowrap; }
 .plNum { padding-left:21px; width:25px; }
 .plLength { padding-left:21px; position:absolute; right:21px; top:0; }
-.plSel,.plSel:hover { background-color:#262223!important; cursor:default!important; }
-a[id^="btn"] { background-color:#231F20; color:#C8C7C8; cursor:pointer; font-size:50px; margin:0; padding:0 27px 11px; text-decoration:none; }
+.plSel,.plSel:hover { background-color:black!important; cursor:default!important; }
+a[id^="btn"] { background-color:black; color:#C8C7C8; cursor:pointer; font-size:50px; margin:0; padding:0 27px 11px; text-decoration:none; }
 a[id^="btn"]:last-child { margin-left:-4px; }
-a[id^="btn"]:hover,a[id^="btn"]:active { background-color:#262223; }
+a[id^="btn"]:hover,a[id^="btn"]:active { background-color:black; }
 a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
 
 /* IE 9 */
 html[data-useragent*="MSIE 9.0"] audio { outline:none; width:90%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
 html[data-useragent*="MSIE 9.0"] #tracks { min-height:57px; top:5px; }
-html[data-useragent*="MSIE 9.0"] a[id^="btn"] { background-color:#000; }
-html[data-useragent*="MSIE 9.0"] a[id^="btn"]:hover { background-color:#080808; }
-html[data-useragent*="MSIE 9.0"] #plList li { background-color:#000; }
-html[data-useragent*="MSIE 9.0"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="MSIE 9.0"] a[id^="btn"] { background-color:black; }
+html[data-useragent*="MSIE 9.0"] a[id^="btn"]:hover { background-color:black; }
+html[data-useragent*="MSIE 9.0"] #plList li { background-color:black; }
+html[data-useragent*="MSIE 9.0"] #plList li:hover { background-color:black; }
 html[data-useragent*="MSIE 9.0"] .plSel,
-html[data-useragent*="MSIE 9.0"] .plSel:hover { background-color:#080808!important; }
+html[data-useragent*="MSIE 9.0"] .plSel:hover { background-color:black!important; }
 
 /* IE 10 */
 html[data-useragent*="MSIE 10.0"] audio {  width:90%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 10.0"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
 html[data-useragent*="MSIE 10.0"] #tracks { min-height:60px; top:8px; }
-html[data-useragent*="MSIE 10.0"] a[id^="btn"] { background-color:#000; }
-html[data-useragent*="MSIE 10.0"] a[id^="btn"]:hover { background-color:#080808; }
-html[data-useragent*="MSIE 10.0"] #plList li { background-color:#000; }
-html[data-useragent*="MSIE 10.0"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="MSIE 10.0"] a[id^="btn"] { background-color:black; }
+html[data-useragent*="MSIE 10.0"] a[id^="btn"]:hover { background-color:black; }
+html[data-useragent*="MSIE 10.0"] #plList li { background-color:black; }
+html[data-useragent*="MSIE 10.0"] #plList li:hover { background-color:black; }
 html[data-useragent*="MSIE 10.0"] .plSel,
-html[data-useragent*="MSIE 10.0"] .plSel:hover { background-color:#080808!important; }
+html[data-useragent*="MSIE 10.0"] .plSel:hover { background-color:black!important; }
 
 /* IE 11 */
 html[data-useragent*="rv:11.0"] audio { width:90%; margin:0 auto; display:block;}
 html[data-useragent*="rv:11.0"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
 html[data-useragent*="rv:11.0"] #tracks { min-height:60px; top:8px; }
-html[data-useragent*="rv:11.0"] a[id^="btn"] { background-color:#000; }
-html[data-useragent*="rv:11.0"] a[id^="btn"]:hover { background-color:#080808; }
-html[data-useragent*="rv:11.0"] #plList li { background-color:#000; }
-html[data-useragent*="rv:11.0"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="rv:11.0"] a[id^="btn"] { background-color:black; }
+html[data-useragent*="rv:11.0"] a[id^="btn"]:hover { background-color:black; }
+html[data-useragent*="rv:11.0"] #plList li { background-color:black; }
+html[data-useragent*="rv:11.0"] #plList li:hover { background-color:black; }
 html[data-useragent*="rv:11.0"] .plSel,
-html[data-useragent*="rv:11.0"] .plSel:hover { background-color:#080808!important; }
+html[data-useragent*="rv:11.0"] .plSel:hover { background-color:black!important; }
 
 /* All Apple Products */
 /*html[data-useragent*="Apple"] audio { margin:0; width:100%; }
-html[data-useragent*="Apple"] #audiowrap { width:100%; background-color:#000; }
+html[data-useragent*="Apple"] #audiowrap { width:100%; background-color:black; }
 html[data-useragent*="Apple"] #tracks { min-height:64px; top:12px; }
-html[data-useragent*="Apple"] a[id^="btn"] { background-color:#000; }
-html[data-useragent*="Apple"] a[id^="btn"]:hover { background-color:#080808; }
-html[data-useragent*="Apple"] #plList li { background-color:#000; }
-html[data-useragent*="Apple"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="Apple"] a[id^="btn"] { background-color:black; }
+html[data-useragent*="Apple"] a[id^="btn"]:hover { background-color:black; }
+html[data-useragent*="Apple"] #plList li { background-color:black; }
+html[data-useragent*="Apple"] #plList li:hover { background-color:black; }
 html[data-useragent*="Apple"] .plSel,
-html[data-useragent*="Apple"] .plSel:hover { background-color:#080808!important; }*/
+html[data-useragent*="Apple"] .plSel:hover { background-color:black!important; }*/
 
 /* IOS 7 */
 html[data-useragent*="OS 7"] body { color:#373837; }
 html[data-useragent*="OS 7"] audio { width:90%; margin:0 auto; display:block;}
 html[data-useragent*="OS 7"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
 html[data-useragent*="OS 7"] #tracks { min-height:75px; top:23px; }
-html[data-useragent*="OS 7"] a[id^="btn"] { background-color:#e6e6e6; color:#373837; }
-html[data-useragent*="OS 7"] a[id^="btn"]:hover { background-color:#eee; }
-html[data-useragent*="OS 7"] #plList li { background-color:#e6e6e6; }
-html[data-useragent*="OS 7"] #plList li:hover { background-color:#eee; }
+html[data-useragent*="OS 7"] a[id^="btn"] { background-color:black; color:#373837; }
+html[data-useragent*="OS 7"] a[id^="btn"]:hover { background-color:black; }
+html[data-useragent*="OS 7"] #plList li { background-color:black; }
+html[data-useragent*="OS 7"] #plList li:hover { background-color:black; }
 html[data-useragent*="OS 7"] .plSel,
-html[data-useragent*="OS 7"] .plSel:hover { background-color:#eee!important; }
+html[data-useragent*="OS 7"] .plSel:hover { background-color:black!important; }
 
 /* Chrome */
 html[data-useragent*="Chrome"] audio { width:90%; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"] #tracks { min-height:64px; top:12px; }
 html[data-useragent*="Chrome"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
-html[data-useragent*="Chrome"] a[id^="btn"] { background-color:#131313; }
-html[data-useragent*="Chrome"] a[id^="btn"]:hover { background-color:#161616; }
-html[data-useragent*="Chrome"] #plList li { background-color:#131313; }
-html[data-useragent*="Chrome"] #plList li:hover { background-color:#161616; }
+html[data-useragent*="Chrome"] a[id^="btn"] { background-color:black; }
+html[data-useragent*="Chrome"] a[id^="btn"]:hover { background-color:black; }
+html[data-useragent*="Chrome"] #plList li { background-color:black; }
+html[data-useragent*="Chrome"] #plList li:hover { background-color:black; }
 html[data-useragent*="Chrome"] .plSel,
-html[data-useragent*="Chrome"] .plSel:hover { background-color:#161616!important; }
+html[data-useragent*="Chrome"] .plSel:hover { background-color:black!important; }
 
 /* Chrome / Android / Tablet */
 html[data-useragent*="Chrome"][data-useragent*="Android"] audio {width:400px; margin:0 auto; display:block;}
