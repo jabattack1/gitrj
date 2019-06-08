@@ -222,7 +222,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:5p
 ================================================== */
 
 /* Tablet Portrait */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 420px) and (max-width: 420px) {
 audio { width:526px; }
 html[data-useragent*="MSIE 9.0"] audio { width:420px; }
 html[data-useragent*="MSIE 10.0"] audio { width:240px; }
@@ -233,7 +233,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:5p
 }
 
 /* Mobile Landscape */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 420px) and (max-width: 420px) {
 audio { width:390px; }
 html[data-useragent*="MSIE 9.0"] audio { width:400px; }
 html[data-useragent*="MSIE 10.0"] audio { width:407px; }
@@ -245,7 +245,7 @@ html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:5px
 }
 
 /* Mobile Portrait */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 420px) {
 audio { width:270px; }
 html[data-useragent*="MSIE 9.0"] audio { width:280px; }
 html[data-useragent*="MSIE 10.0"] audio { width:287px; }
