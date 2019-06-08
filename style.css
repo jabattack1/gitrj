@@ -126,7 +126,7 @@ transition:all 100ms ease;
 ================================================== */
 
 /* Default / Desktop / Firefox */
-audio { margin:0 auto; width:90%; display:block; }
+audio { margin:0 auto; width:100%; display:block; }
 #mainwrap { /* add box-shadow or other styles here */ }
 #audiowrap { width:100%; background-color:black; margin:0 auto; }
 #plwrap { margin:0 auto; }
@@ -148,7 +148,7 @@ a[id^="btn"]:hover,a[id^="btn"]:active { background-color:black; }
 a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
 
 /* IE 9 */
-html[data-useragent*="MSIE 9.0"] audio { outline:none; width:90%; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 9.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 9.0"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
 html[data-useragent*="MSIE 9.0"] #tracks { min-height:57px; top:5px; }
 html[data-useragent*="MSIE 9.0"] a[id^="btn"] { background-color:black; }
@@ -159,7 +159,7 @@ html[data-useragent*="MSIE 9.0"] .plSel,
 html[data-useragent*="MSIE 9.0"] .plSel:hover { background-color:black!important; }
 
 /* IE 10 */
-html[data-useragent*="MSIE 10.0"] audio {  width:90%; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 10.0"] audio {  width:100%; margin:0 auto; display:block;}
 html[data-useragent*="MSIE 10.0"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
 html[data-useragent*="MSIE 10.0"] #tracks { min-height:60px; top:8px; }
 html[data-useragent*="MSIE 10.0"] a[id^="btn"] { background-color:black; }
@@ -170,7 +170,7 @@ html[data-useragent*="MSIE 10.0"] .plSel,
 html[data-useragent*="MSIE 10.0"] .plSel:hover { background-color:black!important; }
 
 /* IE 11 */
-html[data-useragent*="rv:11.0"] audio { width:90%; margin:0 auto; display:block;}
+html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="rv:11.0"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
 html[data-useragent*="rv:11.0"] #tracks { min-height:60px; top:8px; }
 html[data-useragent*="rv:11.0"] a[id^="btn"] { background-color:black; }
@@ -193,7 +193,7 @@ html[data-useragent*="Apple"] .plSel:hover { background-color:black!important; }
 
 /* IOS 7 */
 html[data-useragent*="OS 7"] body { color:#373837; }
-html[data-useragent*="OS 7"] audio { width:90%; margin:0 auto; display:block;}
+html[data-useragent*="OS 7"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="OS 7"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
 html[data-useragent*="OS 7"] #tracks { min-height:75px; top:23px; }
 html[data-useragent*="OS 7"] a[id^="btn"] { background-color:black; color:#373837; }
@@ -204,7 +204,7 @@ html[data-useragent*="OS 7"] .plSel,
 html[data-useragent*="OS 7"] .plSel:hover { background-color:black!important; }
 
 /* Chrome */
-html[data-useragent*="Chrome"] audio { width:90%; margin:0 auto; display:block;}
+html[data-useragent*="Chrome"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"] #tracks { min-height:64px; top:12px; }
 html[data-useragent*="Chrome"] #audiowrap { width:100%; background-color:black; margin:0 auto; }
 html[data-useragent*="Chrome"] a[id^="btn"] { background-color:black; }
@@ -224,34 +224,34 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] audio {width:400px; ma
 /* Tablet Portrait */
 @media only screen and (min-width: 420px) and (max-width: 420px) {
 audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="MSIE 9.0"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="MSIE 10.0"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="rv:11.0"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="OS 7"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="Chrome"] audio { width:90%; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 9.0"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 10.0"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="OS 7"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="Chrome"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:5px; width:420px; }
 }
 
 /* Mobile Landscape */
 @media only screen and (min-width: 420px) and (max-width: 420px) {
-audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="MSIE 9.0"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="MSIE 10.0"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="rv:11.0"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="OS 7"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="Chrome"] audio { width:90%; margin:0 auto; display:block;}
+audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 9.0"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 10.0"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="OS 7"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="Chrome"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:5px; width:403px; }
 #npTitle { margin:0 auto; padding:12px; text-align:center; width:100%;}
 }
 
 /* Mobile Portrait */
 @media only screen and (max-width: 420px) {
-audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="MSIE 9.0"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="MSIE 10.0"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="rv:11.0"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="OS 7"] audio { width:90%; margin:0 auto; display:block;}
-html[data-useragent*="Chrome"] audio { width:90%; margin:0 auto; display:block;}
+audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 9.0"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="MSIE 10.0"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="rv:11.0"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="OS 7"] audio { width:100%; margin:0 auto; display:block;}
+html[data-useragent*="Chrome"] audio { width:100%; margin:0 auto; display:block;}
 html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:5px; width:283px; }
 #npTitle { margin:0 auto; padding:12px; text-align:center; width:100%;}
 
