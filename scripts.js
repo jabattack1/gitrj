@@ -20,32 +20,32 @@ jQuery(function ($) {
         extension = '',
         tracks = [{
             "track": 1,
-            "name": "I DON'T WANT TO GO AND SEE THE SUN",
+            "name": "1. I DON'T WANT TO GO AND SEE THE SUN",
             "length": "02:46",
             "file": "sun"
         }, {
             "track": 2,
-            "name": "TRAFFIC LIGHTS",
+            "name": "2. TRAFFIC LIGHTS",
             "length": "08:30",
             "file": "BS_TF"
         }, {
             "track": 3,
-            "name": "8 BIT NEMESIS",
+            "name": "3. 8 BIT NEMESIS",
             "length": "05:01",
             "file": "BS_ATKM"
         }, {
             "track": 4,
-            "name": "MICROPHONE REBEL SOLO",
+            "name": "4. MICROPHONE REBEL SOLO",
             "length": "08:32",
             "file": "BSFM_TF"
         }, {
             "track": 5,
-            "name": "PROGRAM",
+            "name": "5. PROGRAM",
             "length": "05:05",
             "file": "BSFM_ATKM"
         }, {
             "track": 6,
-            "name": "ENEMY SONG",
+            "name": "6. ENEMY SONG",
             "length": "05:05",
             "file": "BSFM_ATKM"
         }],
