@@ -45,7 +45,12 @@ jQuery(function ($) {
             "file": "Program"
         }, {
             "track": 6,
-            "name": "6. ENEMY SONG",
+            "name": "6. (INTERLUDE - BINTANG)",
+            "length": "02:53",
+            "file": "Bintang"
+        },  {
+            "track": 7,
+            "name": "7. ENEMY SONG",
             "length": "03:49",
             "file": "Enemy"
         }],
