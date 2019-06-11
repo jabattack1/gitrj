@@ -38,16 +38,16 @@ jQuery(function ($) {
             "name": "4. (INTERLUDE - BINTANG)",
             "length": "02:53",
             "file": "Bintang"
-        }, {
-            "track": 5,
-            "name": "5. PROGRAM",
-            "length": "02:36",
-            "file": "Program"
         },  {
-            "track": 6,
-            "name": "6. ENEMY SONG",
+            "track": 5,
+            "name": "5. ENEMY SONG",
             "length": "03:49",
             "file": "Enemy"
+        }, {
+            "track": 6,
+            "name": "6. PROGRAM",
+            "length": "02:36",
+            "file": "Program"
         }, {
             "track": 7,
             "name": "7. 8 BIT NEMESIS",
