@@ -35,25 +35,25 @@ jQuery(function ($) {
             "file": "Microphone"
         }, {
             "track": 4,
-            "name": "4. (INTERLUDE - BINTANG)",
-            "length": "02:53",
-            "file": "Bintang"
-        },  {
+            "name": "4. 8 BIT NEMESIS",
+            "length": "01:49",
+            "file": "8Bit"
+        }, {
             "track": 5,
             "name": "5. ENEMY SONG",
             "length": "03:49",
             "file": "Enemy"
-        }, {
+        },  {
             "track": 6,
-            "name": "6. PROGRAM",
-            "length": "02:36",
-            "file": "Program"
+            "name": "6. (INTERLUDE - BINTANG)",
+            "length": "02:53",
+            "file": "Bintang"
         }, {
             "track": 7,
-            "name": "7. 8 BIT NEMESIS",
-            "length": "01:49",
-            "file": "8Bit"
-        },],
+            "name": "7. PROGRAM",
+            "length": "02:36",
+            "file": "Program"
+        }],
         trackCount = tracks.length,
         npAction = $('#npAction'),
         npTitle = $('#npTitle'),
