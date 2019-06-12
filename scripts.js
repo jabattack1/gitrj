@@ -30,14 +30,14 @@ jQuery(function ($) {
             "file": "Traffic"
         }, {
             "track": 3,
-            "name": "3. MICROPHONE REBEL SOLO",
-            "length": "03:01",
-            "file": "Microphone"
-        }, {
-            "track": 4,
-            "name": "4. 8 BIT NEMESIS",
+            "name": "3. 8 BIT NEMESIS",
             "length": "01:49",
             "file": "8Bit"
+        }, {
+            "track": 4,
+            "name": "4. MICROPHONE REBEL SOLO",
+            "length": "03:01",
+            "file": "Microphone"
         }, {
             "track": 5,
             "name": "5. PROGRAM",
