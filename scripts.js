@@ -20,34 +20,34 @@ jQuery(function ($) {
         extension = '',
         tracks = [{
             "track": 1,
-            "name": "1. I DON'T WANT TO GO AND SEE THE SUN",
-            "length": "04:16",
-            "file": "Sun"
-        }, {
+            "name": "1. PROGRAM (FEAT. MATTHEW CLANTON)",
+            "length": "02:23",
+            "file": "Program"
+        },  {
             "track": 2,
             "name": "2. TRAFFIC LIGHTS",
-            "length": "04:37",
+            "length": "04:10",
             "file": "Traffic"
-        }, {
+        },  {
             "track": 3,
-            "name": "3. 8 BIT NEMESIS",
-            "length": "01:49",
-            "file": "8Bit"
+            "name": "3. I DON'T WANT TO GO AND SEE THE SUN",
+            "length": "04:17",
+            "file": "Sun"
         }, {
             "track": 4,
-            "name": "4. MICROPHONE REBEL SOLO",
-            "length": "03:01",
-            "file": "Microphone"
+            "name": "4. BIKER (FEAT. JACKSON SCALES)",
+            "length": "02:09",
+            "file": "Biker"
         }, {
             "track": 5,
-            "name": "5. (INTERLUDE - BINTANG)",
-            "length": "02:53",
-            "file": "Bintang"
+            "name": "5. I'M THE FIRE",
+            "length": "02:48",
+            "file": "Fire"
         }, {
             "track": 6,
-            "name": "6. PROGRAM",
-            "length": "02:36",
-            "file": "Program"
+            "name": "6. MICROPHONE REBEL SOLO",
+            "length": "03:00",
+            "file": "Microphone"
         }, {
             "track": 7,
             "name": "7. ENEMY SONG",

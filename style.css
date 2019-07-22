@@ -5,7 +5,7 @@
 	display:block;
 	margin:0 auto;
 	width:420px;
-	height:420px;
+	height:180px;
 }
 
 #audio-boy{
@@ -38,6 +38,11 @@
 #rights{
 	color:white;
 	font-size:12px;	
+}
+
+#video{
+	width:100%;
+	height:300px;
 }
 
 
