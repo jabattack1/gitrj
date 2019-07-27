@@ -36,7 +36,7 @@ jQuery(function ($) {
         },  {
             "track": 4,
             "name": "4. TRAFFIC LIGHTS",
-            "length": "04:10",
+            "length": "04:12",
             "file": "Traffic"
         }, {
             "track": 5,
