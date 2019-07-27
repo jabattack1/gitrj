@@ -26,7 +26,7 @@ jQuery(function ($) {
         },  {
             "track": 2,
             "name": "2. PROGRAM (FEAT. MATTHEW CLANTON)",
-            "length": "02:23",
+            "length": "02:26",
             "file": "Program"
         },  {
             "track": 3,
