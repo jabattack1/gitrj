@@ -21,43 +21,43 @@ jQuery(function ($) {
         tracks = [  {
             "track": 1,
             "name": "1. I DON'T WANT TO GO AND SEE THE SUN",
-            "length": "04:08",
+            "length": "04:11",
             "file": "Sun"
-        },  {
+        },{
             "track": 2,
             "name": "2. PROGRAM (FEAT. MATTHEW CLANTON)",
             "length": "02:26",
             "file": "Program"
         },  {
             "track": 3,
-            "name": "3. 8 BIT NEMESIS",
-            "length": "01:50",
-            "file": "8Bit"
-        },  {
-            "track": 4,
-            "name": "4. TRAFFIC LIGHTS",
-            "length": "04:12",
-            "file": "Traffic"
-        }, {
-            "track": 5,
-            "name": "5. BIKER (FEAT. JACKSON SCALES)",
+            "name": "3. BIKER (FEAT. JACKSON SCALES)",
             "length": "02:09",
             "file": "Biker"
-        }, {
-            "track": 6,
-            "name": "6. I'M THE FIRE",
-            "length": "02:37",
-            "file": "Fire"
-        }, {
-            "track": 7,
-            "name": "7. MICROPHONE REBEL SOLO",
+        },  {
+            "track": 4,
+            "name": "4. MICROPHONE REBEL SOLO (FEAT. SONI)",
             "length": "03:00",
             "file": "Microphone"
+        },  {
+            "track": 5,
+            "name": "5. 8 BIT NEMESIS",
+            "length": "01:50",
+            "file": "8Bit"
         }, {
-            "track": 8,
-            "name": "8. ENEMY SONG",
+            "track": 6,
+            "name": "6. TRAFFIC LIGHTS",
+            "length": "04:10",
+            "file": "Traffic"
+        }, {
+            "track": 7,
+            "name": "7. ENEMY SONG",
             "length": "03:49",
             "file": "Enemy"
+        },  {
+            "track": 8,
+            "name": "BONUS - I'M THE FIRE",
+            "length": "02:30",
+            "file": "Fire"
         }],
         trackCount = tracks.length,
         npAction = $('#npAction'),
