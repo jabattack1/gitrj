@@ -18,44 +18,49 @@ jQuery(function ($) {
             playing = false;
         mediaPath = './songs/',
         extension = '',
-        tracks = [  {
+        tracks = [{
             "track": 1,
             "name": "1. I DON'T WANT TO GO AND SEE THE SUN",
             "length": "04:11",
             "file": "Sun"
-        },{
+        },  {
             "track": 2,
             "name": "2. PROGRAM (FEAT. MATTHEW CLANTON)",
             "length": "02:26",
             "file": "Program"
         },  {
             "track": 3,
-            "name": "3. BIKER (FEAT. JACKSON SCALES)",
-            "length": "02:10",
-            "file": "Biker"
-        },  {
-            "track": 4,
-            "name": "4. MICROPHONE REBEL SOLO (FEAT. SONI)",
+            "name": "3. MICROPHONE REBEL SOLO (FEAT. SONI)",
             "length": "03:00",
             "file": "Microphone"
         },  {
+            "track": 4,
+            "name": "4. BIKER (FEAT. JACKSON SCALES)",
+            "length": "02:10",
+            "file": "Biker"
+        },  {
             "track": 5,
-            "name": "5. 8 BIT NEMESIS",
-            "length": "01:50",
-            "file": "8Bit"
-        }, {
-            "track": 6,
-            "name": "6. TRAFFIC LIGHTS",
+            "name": "5. TRAFFIC LIGHTS",
             "length": "04:10",
             "file": "Traffic"
-        }, {
+        },  {
+            "track": 6,
+            "name": "6. VENTILATION",
+            "length": "02:44",
+            "file": "Vent"
+        },  {
             "track": 7,
-            "name": "7. ENEMY SONG",
+            "name": "7. 8 BIT NEMESIS",
+            "length": "01:50",
+            "file": "8Bit"
+        },{
+            "track": 8,
+            "name": "8. ENEMY SONG",
             "length": "03:49",
             "file": "Enemy"
-        },  {
-            "track": 8,
-            "name": "BONUS - I'M THE FIRE",
+        }, {
+            "track": 9,
+            "name": "9. BONUS - I'M THE FIRE",
             "length": "02:31",
             "file": "Fire"
         }],
