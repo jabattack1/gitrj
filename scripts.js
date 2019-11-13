@@ -20,9 +20,9 @@ jQuery(function ($) {
         extension = '',
         tracks = [{
             "track": 1,
-            "name": "1. I DON'T WANT TO GO AND SEE THE SUN",
-            "length": "04:11",
-            "file": "Sun"
+            "name": "1. DAYLIGHT ROBBERY",
+            "length": "02:18",
+            "file": "Daylight"
         },  {
             "track": 2,
             "name": "2. PROGRAM (FEAT. MATTHEW CLANTON)",
@@ -30,39 +30,24 @@ jQuery(function ($) {
             "file": "Program"
         },  {
             "track": 3,
-            "name": "3. MICROPHONE REBEL SOLO (FEAT. SONI)",
-            "length": "03:00",
-            "file": "Microphone"
+            "name": "3. I DON'T WANT TO GO AND SEE THE SUN",
+            "length": "03:57",
+            "file": "Sun"
         },  {
             "track": 4,
-            "name": "4. BIKER (FEAT. JACKSON SCALES)",
-            "length": "02:10",
-            "file": "Biker"
+            "name": "4. NOBODY",
+            "length": "02:19",
+            "file": "Nobodys"
         },  {
             "track": 5,
-            "name": "5. TRAFFIC LIGHTS",
-            "length": "04:10",
-            "file": "Traffic"
+            "name": "5. BIKER (FEAT. JACKSON SCALES)",
+            "length": "02:02",
+            "file": "Biker"
         },  {
             "track": 6,
-            "name": "6. VENTILATION",
-            "length": "02:44",
-            "file": "Vent"
-        },  {
-            "track": 7,
-            "name": "7. 8 BIT NEMESIS",
-            "length": "01:50",
-            "file": "8Bit"
-        },{
-            "track": 8,
-            "name": "8. ENEMY SONG",
-            "length": "03:49",
-            "file": "Enemy"
-        }, {
-            "track": 9,
-            "name": "9. BONUS - I'M THE FIRE",
-            "length": "02:31",
-            "file": "Fire"
+            "name": "6. MICROPHONE REBEL SOLO (FEAT. SONY)",
+            "length": "03:03",
+            "file": "Microphone"
         }],
         trackCount = tracks.length,
         npAction = $('#npAction'),
