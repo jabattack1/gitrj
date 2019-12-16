@@ -48,11 +48,6 @@ jQuery(function ($) {
             "name": "6. MICROPHONE REBEL SOLO (FEAT. SONY)",
             "length": "03:03",
             "file": "Microphone"
-        }, {
-            "track": 7,
-            "name": "7. 8 BIT NEMESIS",
-            "length": "01:51",
-            "file": "8Bit"
         }],
         trackCount = tracks.length,
         npAction = $('#npAction'),
