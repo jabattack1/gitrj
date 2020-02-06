@@ -18,16 +18,16 @@ jQuery(function ($) {
             playing = false;
         mediaPath = './songs/',
         extension = '',
-        tracks = [{
+        tracks = [    {
             "track": 1,
             "name": "1. DAYLIGHT ROBBERY",
             "length": "02:18",
             "file": "Daylight"
         },  {
             "track": 2,
-            "name": "2. PROGRAM (FEAT. MATTHEW CLANTON)",
-            "length": "02:26",
-            "file": "Program"
+            "name": "2. BIKER (FEAT. JACKSON SCALES)",
+            "length": "01:51",
+            "file": "Biker"
         },  {
             "track": 3,
             "name": "3. I DON'T WANT TO GO AND SEE THE SUN",
@@ -35,17 +35,22 @@ jQuery(function ($) {
             "file": "Sun"
         },  {
             "track": 4,
-            "name": "4. NOBODY",
+            "name": "4. STARLIGHTS",
+            "length": "01:51",
+            "file": "Star"
+        },  {
+            "track": 5,
+            "name": "5. PROGRAM (FEAT. MATTHEW CLANTON)",
+            "length": "02:26",
+            "file": "Program"
+        },{
+            "track": 6,
+            "name": "6. NOBODY",
             "length": "02:24",
             "file": "Nobody"
         },  {
-            "track": 5,
-            "name": "5. BIKER (FEAT. JACKSON SCALES)",
-            "length": "01:51",
-            "file": "Biker"
-        },  {
-            "track": 6,
-            "name": "6. MICROPHONE REBEL SOLO (FEAT. SONY)",
+            "track": 7,
+            "name": "7. MICROPHONE REBEL SOLO (FEAT. SONY)",
             "length": "03:03",
             "file": "Microphone"
         }],
