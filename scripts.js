@@ -36,8 +36,8 @@ jQuery(function ($) {
         },  {
             "track": 4,
             "name": "4. STARLIGHTS",
-            "length": "01:51",
-            "file": "Star"
+            "length": "02:15",
+            "file": "Starlights"
         },  {
             "track": 5,
             "name": "5. PROGRAM (FEAT. MATTHEW CLANTON)",
