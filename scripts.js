@@ -30,14 +30,14 @@ jQuery(function ($) {
             "file": "Biker"
         },  {
             "track": 3,
-            "name": "3. I DON'T WANT TO GO AND SEE THE SUN",
-            "length": "03:57",
-            "file": "Sun"
-        },  {
-            "track": 4,
-            "name": "4. STARLIGHTS",
+            "name": "3. STARLIGHTS",
             "length": "02:15",
             "file": "Starlights"
+        },{
+            "track": 4,
+            "name": "4. I DON'T WANT TO GO AND SEE THE SUN",
+            "length": "03:57",
+            "file": "Sun"
         },  {
             "track": 5,
             "name": "5. PROGRAM (FEAT. MATTHEW CLANTON)",
