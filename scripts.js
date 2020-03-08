@@ -33,17 +33,17 @@ jQuery(function ($) {
             "name": "3. STARLIGHTS",
             "length": "02:15",
             "file": "Starlights"
-        },{
-            "track": 4,
-            "name": "4. I DON'T WANT TO GO AND SEE THE SUN",
-            "length": "03:57",
-            "file": "Sun"
         },  {
-            "track": 5,
-            "name": "5. PROGRAM (FEAT. MATTHEW CLANTON)",
+            "track": 4,
+            "name": "4. PROGRAM (FEAT. MATTHEW CLANTON)",
             "length": "02:26",
             "file": "Program"
-        },{
+        },  {
+            "track": 5,
+            "name": "5. I DON'T WANT TO GO AND SEE THE SUN",
+            "length": "03:57",
+            "file": "Sun"
+        }, {
             "track": 6,
             "name": "6. NOBODY",
             "length": "02:24",
