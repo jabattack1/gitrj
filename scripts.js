@@ -25,19 +25,19 @@ jQuery(function ($) {
             "file": "Daylight"
         },  {
             "track": 2,
-            "name": "2. I DON'T WANT TO GO AND SEE THE SUN",
-            "length": "03:57",
-            "file": "Sun"
+            "name": "2. STARLIGHTS",
+            "length": "02:15",
+            "file": "Starlights"
         },  {
             "track": 3,
             "name": "3. PROGRAM (FEAT. MATTHEW CLANTON)",
             "length": "02:26",
             "file": "Program"
-        }, {
+        },  {
             "track": 4,
-            "name": "4. STARLIGHTS",
-            "length": "02:15",
-            "file": "Starlights"
+            "name": "4. I DON'T WANT TO GO AND SEE THE SUN",
+            "length": "03:57",
+            "file": "Sun"
         }, {
             "track": 5,
             "name": "5. NOBODY",
