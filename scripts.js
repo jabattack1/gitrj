@@ -31,7 +31,7 @@ jQuery(function ($) {
         },  {
             "track": 3,
             "name": "3. BIKER (FEAT. JACKSON SCALES)",
-            "length": "01:51",
+            "length": "02:17",
             "file": "Biker"
         },  {
             "track": 4,
