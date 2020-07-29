@@ -30,14 +30,14 @@ jQuery(function ($) {
             "file": "Starlights"
         },  {
             "track": 3,
-            "name": "3. BIKER (FEAT. JACKSON SCALES)",
-            "length": "01:50",
-            "file": "Biker"
-        },  {
-            "track": 4,
-            "name": "4. PROGRAM (FEAT. MATTHEW CLANTON)",
+            "name": "3. PROGRAM (FEAT. MATTHEW CLANTON)",
             "length": "02:26",
             "file": "Program"
+        },  {
+            "track": 4,
+            "name": "4. NOBODY",
+            "length": "02:20",
+            "file": "Nobody"
         },  {
             "track": 5,
             "name": "5. MICROPHONE REBEL SOLO (FEAT. SONY)",
@@ -45,9 +45,9 @@ jQuery(function ($) {
             "file": "Microphone"
         },  {
             "track": 6,
-            "name": "6. NOBODY",
-            "length": "02:20",
-            "file": "Nobody"
+            "name": "6. BIKER (FEAT. JACKSON SCALES)",
+            "length": "01:50",
+            "file": "Biker"
         }],
         trackCount = tracks.length,
         npAction = $('#npAction'),
