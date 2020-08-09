@@ -40,14 +40,19 @@ jQuery(function ($) {
             "file": "Program"
         },  {
             "track": 5,
-            "name": "5. NOBODY",
+            "name": "5. WACKO",
             "length": "02:20",
-            "file": "Nobody"
+            "file": "Wacko"
         },  {
             "track": 6,
             "name": "6. MICROPHONE REBEL SOLO (FEAT. SONY)",
             "length": "03:03",
             "file": "Microphone"
+        },  {
+            "track": 7,
+            "name": "7. NOBODY",
+            "length": "02:20",
+            "file": "Nobody"
         }],
         trackCount = tracks.length,
         npAction = $('#npAction'),
