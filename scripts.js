@@ -45,14 +45,14 @@ jQuery(function ($) {
             "file": "Wacko"
         },  {
             "track": 6,
-            "name": "6. MICROPHONE REBEL SOLO (FEAT. SONY)",
-            "length": "03:03",
-            "file": "Microphone"
-        },  {
-            "track": 7,
-            "name": "7. NOBODY",
+            "name": "6. NOBODY",
             "length": "02:20",
             "file": "Nobody"
+        },  {
+            "track": 7,
+            "name": "7. MICROPHONE REBEL SOLO (FEAT. SONY)",
+            "length": "03:03",
+            "file": "Microphone"
         }],
         trackCount = tracks.length,
         npAction = $('#npAction'),
