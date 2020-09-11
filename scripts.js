@@ -30,19 +30,19 @@ jQuery(function ($) {
             "file": "Starlights"
         },  {
             "track": 3,
-            "name": "3. BIKER (FEAT. JACKSON SCALES)",
-            "length": "02:00",
-            "file": "Biker"
-        },  {
-            "track": 4,
-            "name": "4. PROGRAM (FEAT. MATTHEW CLANTON)",
+            "name": "3. PROGRAM (FEAT. MATTHEW CLANTON)",
             "length": "02:26",
             "file": "Program"
         },  {
-            "track": 5,
-            "name": "5. WACKO",
+            "track": 4,
+            "name": "4. WACKO",
             "length": "02:20",
             "file": "Wacko"
+        },  {
+            "track": 5,
+            "name": "5. BIKER (FEAT. JACKSON SCALES)",
+            "length": "02:00",
+            "file": "Biker"
         },  {
             "track": 6,
             "name": "6. NOBODY",
