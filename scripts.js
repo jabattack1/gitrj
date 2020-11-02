@@ -36,7 +36,7 @@ jQuery(function ($) {
         },  {
             "track": 4,
             "name": "4. WACKO",
-            "length": "02:20",
+            "length": "01:38",
             "file": "Wacko"
         },  {
             "track": 5,
