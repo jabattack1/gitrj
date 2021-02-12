@@ -35,9 +35,9 @@ jQuery(function ($) {
             "file": "Program"
         },  {
             "track": 4,
-            "name": "4. WACKO",
-            "length": "01:39",
-            "file": "Wacko"
+            "name": "4. JUICE",
+            "length": "02:16",
+            "file": "Juice"
         },  {
             "track": 5,
             "name": "5. BIKER (FEAT. JACKSON SCALES)",
@@ -45,12 +45,17 @@ jQuery(function ($) {
             "file": "Biker"
         },  {
             "track": 6,
-            "name": "6. NOBODY",
+            "name": "6. WACKO",
+            "length": "01:39",
+            "file": "Wacko"
+        }, {
+            "track": 7,
+            "name": "7. NOBODY",
             "length": "02:23",
             "file": "Nobody"
         },  {
-            "track": 7,
-            "name": "7. MICROPHONE REBEL SOLO (FEAT. SONY)",
+            "track": 8,
+            "name": "8. MICROPHONE REBEL SOLO (FEAT. SONY)",
             "length": "03:03",
             "file": "Microphone"
         }],
