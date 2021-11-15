@@ -35,15 +35,15 @@ jQuery(function ($) {
             "file": "Program"
         },  {
             "track": 4,
-            "name": "4. JUICE",
-            "length": "02:07",
-            "file": "Juice"
-        },  {
-            "track": 5,
-            "name": "5. WACKO",
+            "name": "4. WACKO",
             "length": "01:48",
             "file": "Wacko"
         },  {
+            "track": 5,
+            "name": "5. JUICE",
+            "length": "02:07",
+            "file": "Juice"
+        },    {
             "track": 6,
             "name": "6. BIKER (FEAT. JACKSON SCALES)",
             "length": "02:15",
