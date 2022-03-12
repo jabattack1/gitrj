@@ -35,7 +35,7 @@ jQuery(function ($) {
             "file": "Program"
         },  {
             "track": 4,
-            "name": "4. I DON'T WANT TO GO AND SEE THE SUN",
+            "name": "4. I DON'T WANT TO GO AND SEE THE SUN (FEAT. OLLIE)",
             "length": "03:15",
             "file": "Sun"
         },  {
