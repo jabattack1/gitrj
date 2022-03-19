@@ -18,26 +18,26 @@ jQuery(function ($) {
             playing = false;
         mediaPath = './songs/',
         extension = '',
-        tracks = [    {
+        tracks = [{
             "track": 1,
-            "name": "1. DAYLIGHT ROBBERY",
-            "length": "02:18",
-            "file": "Daylight"
-        },  {
-            "track": 2,
-            "name": "2. STARLIGHTS",
+            "name": "1. STARLIGHTS",
             "length": "02:16",
             "file": "Starlights"
         },   {
-            "track": 3,
-            "name": "3. PROGRAM (FEAT. MATTHEW CLANTON)",
+            "track": 2,
+            "name": "2. PROGRAM (FEAT. MATTHEW CLANTON)",
             "length": "02:26",
             "file": "Program"
         },  {
-            "track": 4,
-            "name": "4. I DON'T WANT TO GO AND SEE THE SUN (FEAT. OLLIE)",
+            "track": 3,
+            "name": "3. I DON'T WANT TO GO AND SEE THE SUN (FEAT. OLLIE)",
             "length": "03:15",
             "file": "Sun"
+        },  {
+            "track": 4,
+            "name": "4. BIKER (FEAT. OLLIE)",
+            "length": "02:15",
+            "file": "Biker"
         },  {
             "track": 5,
             "name": "5. JUICE",
@@ -45,9 +45,9 @@ jQuery(function ($) {
             "file": "Juice"
         },  {
             "track": 6,
-            "name": "6. BIKER (FEAT. OLLIE)",
-            "length": "02:15",
-            "file": "Biker"
+            "name": "6. DAYLIGHT ROBBERY",
+            "length": "02:18",
+            "file": "Daylight"
         },  {
             "track": 7,
             "name": "7. WACKO",
