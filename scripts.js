@@ -30,7 +30,7 @@ jQuery(function ($) {
             "file": "Program"
         },  {
             "track": 3,
-            "name": "3. I DON'T WANT TO GO AND SEE THE SUN (FEAT. OLLIE)",
+            "name": "3. I DON'T WANT TO GO AND SEE THE SUN",
             "length": "03:15",
             "file": "Sun"
         },  {
