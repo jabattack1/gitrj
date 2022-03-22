@@ -35,14 +35,14 @@ jQuery(function ($) {
             "file": "Sun"
         },  {
             "track": 4,
-            "name": "4. BIKER (FEAT. OLLIE)",
-            "length": "02:15",
-            "file": "Biker"
-        },  {
-            "track": 5,
-            "name": "5. JUICE",
+            "name": "4. JUICE",
             "length": "02:07",
             "file": "Juice"
+        },  {
+            "track": 5,
+            "name": "5. BIKER (FEAT. OLLIE)",
+            "length": "02:15",
+            "file": "Biker"
         },  {
             "track": 6,
             "name": "6. DAYLIGHT ROBBERY",
