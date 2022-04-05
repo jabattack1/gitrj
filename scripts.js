@@ -43,16 +43,16 @@ jQuery(function ($) {
             "name": "5. BIKER (FEAT. OLLIE)",
             "length": "02:15",
             "file": "Biker"
-        },  {
+        },   {
             "track": 6,
-            "name": "6. DAYLIGHT ROBBERY",
-            "length": "02:18",
-            "file": "Daylight"
-        },  {
-            "track": 7,
-            "name": "7. WACKO",
+            "name": "6. WACKO",
             "length": "01:48",
             "file": "Wacko"
+        },  {
+            "track": 7,
+            "name": "7. DAYLIGHT ROBBERY",
+            "length": "02:18",
+            "file": "Daylight"
         },  {
             "track": 8,
             "name": "8. NBDY",
