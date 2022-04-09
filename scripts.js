@@ -43,21 +43,21 @@ jQuery(function ($) {
             "name": "5. BIKER (FEAT. OLLIE)",
             "length": "02:15",
             "file": "Biker"
-        },   {
+        },  {
             "track": 6,
             "name": "6. WACKO",
             "length": "01:48",
             "file": "Wacko"
         },  {
             "track": 7,
-            "name": "7. DAYLIGHT ROBBERY",
-            "length": "02:18",
-            "file": "Daylight"
-        },  {
-            "track": 8,
-            "name": "8. NBDY",
+            "name": "7. NBDY",
             "length": "02:00",
             "file": "Nobody"
+        },  {
+            "track": 8,
+            "name": "8. DAYLIGHT ROBBERY",
+            "length": "02:18",
+            "file": "Daylight"
         }],
         trackCount = tracks.length,
         npAction = $('#npAction'),
