@@ -38,16 +38,16 @@ jQuery(function ($) {
             "name": "4. JUICE",
             "length": "02:07",
             "file": "Juice"
-        },  {
+        },   {
             "track": 5,
-            "name": "5. DAYLIGHT ROBBERY",
-            "length": "02:18",
-            "file": "Daylight"
-        },  {
-            "track": 6,
-            "name": "6. BIKER (FEAT. OLLIE)",
+            "name": "5. BIKER (FEAT. OLLIE)",
             "length": "01:35",
             "file": "Biker"
+        },  {
+            "track": 6,
+            "name": "6. DAYLIGHT ROBBERY",
+            "length": "02:18",
+            "file": "Daylight"
         },  {
             "track": 7,
             "name": "7. WACKO",
