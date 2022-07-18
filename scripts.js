@@ -20,34 +20,34 @@ jQuery(function ($) {
         extension = '',
         tracks = [{
             "track": 1,
-            "name": "1. I DON'T WANT TO GO AND SEE THE SUN",
-            "length": "03:10",
-            "file": "Sun"
+            "name": "1. DAYLIGHT ROBBERY",
+            "length": "02:18",
+            "file": "Daylight"
         },  {
             "track": 2,
             "name": "2. STARLIGHTS",
             "length": "02:16",
             "file": "Starlights"
-        },   {
+        },  {
             "track": 3,
             "name": "3. PROGRAM (FEAT. MATTHEW CLANTON)",
             "length": "02:26",
             "file": "Program"
-        },   {
+        },  {
             "track": 4,
-            "name": "4. JUICE",
+            "name": "4. I DON'T WANT TO GO AND SEE THE SUN",
+            "length": "03:10",
+            "file": "Sun"
+        },  {
+            "track": 5,
+            "name": "5. JUICE",
             "length": "02:07",
             "file": "Juice"
-        },   {
-            "track": 5,
-            "name": "5. BIKER (FEAT. OLLIE)",
-            "length": "01:38",
-            "file": "Biker"
         },  {
             "track": 6,
-            "name": "6. DAYLIGHT ROBBERY",
-            "length": "02:18",
-            "file": "Daylight"
+            "name": "6. BIKER (FEAT. OLLIE)",
+            "length": "01:38",
+            "file": "Biker"
         },  {
             "track": 7,
             "name": "7. WACKO",
