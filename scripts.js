@@ -56,7 +56,7 @@ jQuery(function ($) {
         },  {
             "track": 8,
             "name": "8. NBDY",
-            "length": "02:00",
+            "length": "01:46",
             "file": "Nobody"
         }],
         trackCount = tracks.length,
